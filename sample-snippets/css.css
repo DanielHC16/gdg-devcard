@@ -1,0 +1,42 @@
+/* Styling is centralized and reusable */
+.btn--primary {
+  color: white;
+  background-color: var(--brand-blue);
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+}
+
+/* Styling is centralized and reusable */
+.btn--primary {
+  color: white;
+  background-color: var(--brand-blue);
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+}
+
+/* INEFFICIENCY: Hard to maintain */
+#save-btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: white;
+}
+
+#cancel-btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: white;
+}
+
+/* EFFICIENCY: One source of truth */
+.btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn--primary {
+    background-color: #3498db;
+    color: white;
+}
