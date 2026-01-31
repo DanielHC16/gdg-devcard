@@ -477,12 +477,4 @@ In `css/main.css`, modify the CSS variables in the `:root` section:
 
 Place your image file at `assets/images/avatar.jpg` or update the path in `index.html`.
 
-## Browser Support
 
-Works in all modern browsers:
-- Chrome, Edge, Firefox, Safari
-- Mobile browsers (iOS Safari, Chrome Mobile)
-
-## License
-
-Free to use for personal and commercial projects.
