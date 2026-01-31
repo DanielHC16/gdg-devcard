@@ -13,7 +13,7 @@ Organized by the Web Development Committee 2025-2026
 dev-card-project/
 ├── index.html
 ├── css/
-│   └── main.css
+│   └── styles.css
 ├── js/
 │   └── app.js
 └── assets/
@@ -39,7 +39,7 @@ Create `index.html`:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Developer Card</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="container">
@@ -102,7 +102,7 @@ Create `index.html`:
 
 ## CSS Code
 
-Create `css/main.css`:
+Create `css/styles.css`:
 
 ```css
 /* CSS VARIABLES */
@@ -467,7 +467,7 @@ In `index.html`, update:
 
 ### Change Colors
 
-In `css/main.css`, modify the CSS variables in the `:root` section:
+In `css/styles.css`, modify the CSS variables in the `:root` section:
 - `--accent` - Primary accent color
 - `--accent-gradient` - Gradient colors
 - `--card-bg` - Card background
