@@ -45,7 +45,7 @@ skills.forEach(skill => {
 
 // ==================== INITIALIZE ON LOAD ====================
 window.addEventListener('load', () => {
-    animateCounter('projects', 42);
-    animateCounter('hours', 1200);
-    animateCounter('coffee', 356);
+    animateCounter('projects', 67);
+    animateCounter('hours', 916);
+    animateCounter('coffee', 1738);
 });
