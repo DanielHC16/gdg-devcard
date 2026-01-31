@@ -1,32 +1,32 @@
 /* ==================== CSS VARIABLES ==================== */
 :root {
-    --bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --card-bg: #ffffff;
-    --text: #1a202c;
-    --text-light: #718096;
-    --accent: #667eea;
-    --accent-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --skill-bg: #f7fafc;
-    --skill-text: #4a5568;
-    --stat-bg: #ffffff;
-    --stat-border: #e2e8f0;
-    --shadow: rgba(0, 0, 0, 0.1);
-    --shadow-lg: rgba(102, 126, 234, 0.2);
+    --bg: linear-gradient(135deg, #0D1117 0%, #0A0E14 100%);
+    --card-bg: #0F1419;
+    --text: #E6E1CF;
+    --text-light: #B3B1AD;
+    --accent: #FFB454;
+    --accent-gradient: linear-gradient(135deg, #FFB454 0%, #FF8F40 100%);
+    --skill-bg: #1F2430;
+    --skill-text: #E6E1CF;
+    --stat-bg: #0F1419;
+    --stat-border: #1F2430;
+    --shadow: rgba(0, 0, 0, 0.3);
+    --shadow-lg: rgba(255, 180, 84, 0.15);
 }
 
 body.dark {
-    --bg: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
-    --card-bg: #2d3748;
-    --text: #f7fafc;
-    --text-light: #a0aec0;
-    --accent: #9f7aea;
-    --accent-gradient: linear-gradient(135deg, #9f7aea 0%, #667eea 100%);
-    --skill-bg: #4a5568;
-    --skill-text: #e2e8f0;
-    --stat-bg: #1a202c;
-    --stat-border: #4a5568;
-    --shadow: rgba(0, 0, 0, 0.3);
-    --shadow-lg: rgba(159, 122, 234, 0.15);
+    --bg: linear-gradient(135deg, #0A0E14 0%, #01060E 100%);
+    --card-bg: #0D1017;
+    --text: #E6E1CF;
+    --text-light: #8A8A80;
+    --accent: #39BAE6;
+    --accent-gradient: linear-gradient(135deg, #39BAE6 0%, #59C2FF 100%);
+    --skill-bg: #151A1F;
+    --skill-text: #B3B1AD;
+    --stat-bg: #0A0E14;
+    --stat-border: #1F2430;
+    --shadow: rgba(0, 0, 0, 0.5);
+    --shadow-lg: rgba(57, 186, 230, 0.2);
 }
 
 /* ==================== BASE STYLES ==================== */
@@ -69,16 +69,16 @@ body {
 .card::before {
     content: '';
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     right: 0;
-    height: 6px;
+    height: 4px;
     background: var(--accent-gradient);
 }
 
 .card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 30px 80px var(--shadow-lg);
+    transform: translateY(-3px);
+    box-shadow: 0 25px 60px var(--shadow-lg);
 }
 
 /* ==================== THEME TOGGLE ==================== */
@@ -97,7 +97,7 @@ body {
 }
 
 .theme-toggle:hover {
-    transform: rotate(20deg) scale(1.1);
+    transform: rotate(10deg) scale(1.05);
 }
 
 /* ==================== PROFILE ==================== */
@@ -186,8 +186,8 @@ body {
 .skill:hover {
     background: var(--accent-gradient);
     color: white;
-    transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 8px 20px var(--shadow);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--shadow);
     border-color: var(--accent);
 }
 
@@ -223,9 +223,9 @@ body {
 }
 
 .stat:hover {
-    transform: translateY(-4px);
+    transform: translateY(-2px);
     border-color: var(--accent);
-    box-shadow: 0 8px 24px var(--shadow);
+    box-shadow: 0 4px 16px var(--shadow);
 }
 
 .stat:hover::before {
@@ -276,8 +276,8 @@ body {
 .social-link:hover {
     background: var(--accent-gradient);
     color: white;
-    transform: translateY(-4px) scale(1.1);
-    box-shadow: 0 8px 24px var(--shadow);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px var(--shadow);
     border-color: var(--accent);
 }
 
